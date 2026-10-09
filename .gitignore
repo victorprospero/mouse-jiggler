@@ -1,0 +1,65 @@
+# ========================================
+# .NET: saídas de build e testes
+# ========================================
+bin/
+obj/
+TestResults/
+artifacts/
+*.nupkg
+*.snupkg
+coverage*.json
+coverage*.xml
+coverage*.info
+*.trx
+
+# ========================================
+# macOS
+# ========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ========================================
+# Editores / IDEs
+# ========================================
+.vs/
+*.user
+*.suo
+*.rsuser
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.sln.iml
+*.swp
+*.swo
+*~
+
+# ========================================
+# Claude Code: arquivos pessoais/locais
+# (agents/, commands/ e settings.json SÃO versionados)
+# ========================================
+.claude/settings.local.json
+CLAUDE.local.md
+
+# ========================================
+# Segredos e variáveis de ambiente
+# ========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+appsettings.*.local.json
+
+# ========================================
+# Temporários e logs
+# ========================================
+tmp/
+temp/
+*.tmp
+*.log
+*.bak
