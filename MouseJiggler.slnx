@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/MouseJiggler.Application/MouseJiggler.Application.csproj" />
+    <Project Path="src/MouseJiggler.Console/MouseJiggler.Console.csproj" />
+    <Project Path="src/MouseJiggler.Domain/MouseJiggler.Domain.csproj" />
+    <Project Path="src/MouseJiggler.Infrastructure/MouseJiggler.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/MouseJiggler.Application.UnitTests/MouseJiggler.Application.UnitTests.csproj" />
+    <Project Path="tests/MouseJiggler.Console.Tests/MouseJiggler.Console.Tests.csproj" />
+    <Project Path="tests/MouseJiggler.Domain.UnitTests/MouseJiggler.Domain.UnitTests.csproj" />
+    <Project Path="tests/MouseJiggler.Infrastructure.IntegrationTests/MouseJiggler.Infrastructure.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

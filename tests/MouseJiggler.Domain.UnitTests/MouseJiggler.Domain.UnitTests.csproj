@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\MouseJiggler.Domain\MouseJiggler.Domain.csproj" />
+  </ItemGroup>
+</Project>
