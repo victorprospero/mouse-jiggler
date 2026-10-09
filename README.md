@@ -1,9 +1,8 @@
 # MouseJiggler
 
-Keeps your Mac from going idle. Every 10 seconds it posts a mouse event at the pointer's current position, so Microsoft Teams doesn't switch you to "Away" and the screen doesn't lock. It stops by itself at 18:00 (configurable).
+Keeps your Mac from going idle. Every 10 seconds it posts a mouse event at the pointer's current position.
 
-- The cursor never visibly moves, so it doesn't get in the way of your work.
-- It uses a real input event, which resets the system idle timer. Teams decides whether you're "Away" from that timer. Power assertions like `caffeinate` only keep the screen awake; they don't reset the timer.
+- It uses a real input event, which resets the system idle timer.
 
 ## Prerequisites
 
